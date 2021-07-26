@@ -61,10 +61,9 @@ Buscar Recomendación para el Grupo
         printQuery(queryString, model);
 
     }
-    ```
-    Razonador
-    
-    ```java
+```
+Razonador 
+```java
     public static void reasonerSubClass(String subClass, String classModel, Model model) {
         Reasoner reasoner = ReasonerRegistry.getOWLReasoner();
         reasoner = reasoner.bindSchema(model);
